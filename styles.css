@@ -290,7 +290,7 @@ svg:not([fill]) {
 
 body {
 	margin: 0 auto;
-	width: 960px;
+	width: 920px;
 	height: auto;
 	background-color: #F6F6F6;
 }
@@ -372,7 +372,7 @@ body {
 
  .menu-style {
  	background: linear-gradient(#fff -60%, #6cc6c4);
- 	padding-left: 30px;
+ 	padding-left: 25px;
  	color: #fff;
  }
 
@@ -403,9 +403,19 @@ body {
 #menu1 ul li {
 	list-style: none;
 	font-size: 14px;
-	margin: 0 20px 0 20px;
+	margin: 0 15px 0 15px;
 	padding: 10px 30px 10px 10px;
 	border-bottom: 1px solid #6cc6c4;
+}
+
+#menu1 ul li a {
+	color: #595959;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu1 ul li a:hover {
+	opacity: 0.5;
 }
 
 #menu2 {
@@ -420,6 +430,16 @@ body {
 	margin: 0 20px 0 20px;
 	padding: 10px 30px 10px 10px;
 	border-bottom: 1px solid #6cc6c4;
+}
+
+#menu2 ul li a {
+	color: #595959;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu2 ul li a:hover {
+	opacity: 0.5;
 }
 
 .fa-arrow-right {
@@ -441,7 +461,7 @@ body {
 }
 
 .news-list {
-	margin: 0 20px 0 20px;
+	margin: 0px 20px 0 20px;
 }
 
 .box {
@@ -449,6 +469,12 @@ body {
 	background-color: #fff;
 	width: 640px;
 	height: auto;
+}
+
+.box h2 {
+	font-size: 16px;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 .box dl {
@@ -489,6 +515,7 @@ body {
 }
 
 .footer-menu ul li {
+	font-size: 13px;
 	display: inline-block;
 }
 
@@ -500,7 +527,7 @@ body {
 }
 
 .footer-menu a:hover {
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 
 .list-circle {
@@ -517,6 +544,7 @@ body {
 }
 
 .copy-right {
+	font-size: 12px;
 	padding-top: 5px;
 }
 
